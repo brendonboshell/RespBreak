@@ -2,8 +2,6 @@
 
 Handles breakpoints in responsive designs, using a pattern inspired by Ruby on Rails up()-down() DB Migrator pattern.
 
-**Ultra light**: 831 bytes after minification, 440 bytes with gzip.
-
 ## Usage
 
 For each state you want to represent (e.g. mobile, tablet, desktop) create an object with three methods:
