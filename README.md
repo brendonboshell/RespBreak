@@ -16,7 +16,7 @@ When you have all the state objects you desire, simply create a new `RespBreak` 
 
 ### Example
 
-This example is for when HTML is served-mobile first. The HTML document is structured for the mobile view. When the browser window size is increased beyond 976px wide, the `state_full.up()` function is called, and the function makes the necessary structural changes for the desktop website. When the window decreases, `state_full.down()` is called to undo the changes.
+This example is for when HTML is served mobile first. The HTML document is structured for the mobile view. When the browser window size is increased beyond 976px wide, the `state_full.up()` function is called, and the function makes the necessary structural changes for the desktop website. When the window decreases, `state_full.down()` is called to undo the changes.
 
 If the desktop HTML is served by default, you can simply change the second parameter of the RespBreak constructor to `1`, corresponding to that state object's position in the array `states`.
 
