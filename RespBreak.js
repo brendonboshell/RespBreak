@@ -157,7 +157,7 @@ var RespBreak = {
 			for (k = 0; k < actions.length; k++) {
 				action = actions[k];
 
-				if (this.cbs[name][action]) {
+				if (this.cbs[name] && this.cbs[name][action]) {
 					for (j = 0; j < this.cbs[name][action].length; j++) {
 						this.resizeCb(
 							this.cbs[name][action][j],
